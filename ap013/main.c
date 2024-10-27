@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int price=0;
+    printf("ÇëÊäÈë½ğ¶î£º");
+    scanf("%d",&price);
+    int change=100-price;
+    printf("ÕÒÄú%dÔª\n",change);
+    return 0;
+}
